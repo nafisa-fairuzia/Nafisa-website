@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Nafisa Website</title>
-  </head>
+  </head> 
   <body>
     <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
         <div class="container-fluid">
@@ -26,6 +26,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#biodata">Biodata</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#experience">Experience</a>
@@ -54,33 +57,95 @@
     </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L48,74.7C96,85,192,107,288,144C384,181,480,235,576,240C672,245,768,203,864,176C960,149,1056,139,1152,154.7C1248,171,1344,213,1392,234.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <section id="biodata" class="biodata">
-        <h1 style="color:rgb(170, 228, 255);" class="text-center">BIODATA</h1>
+      <div class="container-bio">
+        <!-- BIODATA -->
+        <div class="biodata-wrapper">
+          <h1 class="biodata-title">BIODATA</h1>
+          <hr class="biodata-line">
+          <div class="biodata-box">
+            <p><span>Nama:</span> Nafisa Fairuzia</p>
+            <p><span>Alamat:</span> Kec. Semboro, Kab. Jember</p>
+            <p><span>Tanggal Lahir:</span> 29 Agustus 2007</p>
+          </div>
+          <hr class="biodata-line">
+        </div>
+      
+        <!-- TIMELINE -->
         <div class="timeline-wrapper">
+          <h2 class="pendidikan-title">Pendidikan</h2>
           <div class="timeline-container">
-              <div class="timeline-item">
-                  <div class="circle">TK</div>
-                  <p>2012-2020</p>
-                  
+            <div class="timeline-item">
+              <div class="circle">TK</div>
+              <p class="year">2012-2020</p>
+              <p class="desc">TK Wismarini</p>
+            </div>
+            <div class="timeline-item">
+              <div class="circle">SD</div>
+              <p class="year">2013-2020</p>
+              <p class="desc">SDN Semboro 04</p>
+            </div>
+            <div class="timeline-item">
+              <div class="circle">SMP</div>
+              <p class="year">2020-2023</p>
+              <p class="desc">SMPN 01 Semboro</p>
+            </div>
+            <div class="timeline-item">
+              <div class="circle">SMK</div>
+              <p class="year">2023 - Coming Soon</p>
+              <p class="desc">SMKN 08 Jember</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section> 
+
+    <section id="skills" class="skills-section">
+      <h2>SKILLS</h2>
+
+      <div class="skill-category">
+          <h3>Pengembangan Web dan Pemrograman</h3>
+          <div class="skill-box">
+              <div class="skill-item">
+                  <span class="icon">🌐</span>
+                  <strong>HTML & CSS</strong>
+                  <p>Dapat membuat struktur dan desain halaman web menggunakan HTML dan CSS. Dapat membuat halaman web yang responsif, artinya tampilan halaman dapat menyesuaikan dengan berbagai ukuran layar. Serta memahami cara menggunakan elemen HTML5 dan CSS untuk pengaturan teks, warna, dan layout.</p>
               </div>
-              <div class="timeline-item">
-                  <div class="circle">SD</div>
-                  <p>2013-2020</p>
-              </div>
-              <div class="timeline-item">
-                  <div class="circle">SMP</div>
-                  <p>2020-2023</p>
-              </div>
-              <div class="timeline-item">
-                  <div class="circle">SMK</div>
-                  <p>2023-coming soon</p>
+              <div class="skill-item">
+                  <span class="icon">💻</span>
+                  <strong>PHP & Laravel</strong>
+                  <p>Memahami dasar-dasar PHP untuk membangun aplikasi web yang bisa berinteraksi dengan pengguna. Menggunakan Laravel, framework PHP, untuk membuat aplikasi yang lebih terstruktur dengan menggunakan konsep MVC (Model-View-Controller). Berpengalaman membuat web dengan fitur seperti login, menyimpan data, dan menampilkan informasi.</p>
               </div>
           </div>
       </div>
-    </section>
+      
+      <div class="skill-category">
+          <h3>Desain</h3>
+          <div class="skill-box">
+              <div class="skill-item" >
+                  <span class="icon">🎨</span>
+                  <strong>Figma</strong>
+                  <p>Menggunakan Figma untuk merancang layout dasar dan elemen UI seperti tombol, form, dan menu untuk halaman web atau aplikasi.</p>
+              </div>
+              <div class="skill-item">
+                  <span class="icon">🖌️</span>
+                  <strong>Canva</strong>
+                  <p>Membuat desain sederhana seperti poster dan gambar untuk media sosial dengan memperhatikan elemen dasar desain seperti warna dan tipografi.</p>
+              </div>
+          </div>
+      </div>
+
+      
+
+      <p class="learning-note" >
+          Saya sedang terus belajar dan meningkatkan kemampuan dalam teknologi pengembangan web dan desain, dan sangat antusias untuk memperdalam pengetahuan dalam bidang ini.
+      </p>
+  </section>
+
     <section id="experience" class="experience">
       <div class="container">
           <h1 style="color: aliceblue;" class="text-center">EXPERIENCE</h1>
-          <p><h4 style="color: rgb(66, 99, 128);" class="text-center">Pengalaman yang saya miliki adalah</h4></p>
+          <p><h4 style="color: rgb(38, 66, 91);" class="text-center">Pengalaman yang saya miliki adalah</h4></p>
           <div class="container">
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
